@@ -1,0 +1,5 @@
+CC = gcc
+
+CFLAGS = -I../pthread_inc -g -O2 -D_REENTRANT -Wall
+LIBS = ../pthread_wrap/my_pthread.a -lpthread
+LIB_OBJS = my_pthread.o
